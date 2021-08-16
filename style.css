@@ -1,0 +1,123 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	margin-top: 70px;
+}
+.navbar{
+	padding-top:0;
+	padding-bottom:0;
+}
+.navbar-brand{
+	padding:5px;
+}
+.navbar-nav{
+	padding-left:30px;
+}
+
+.navbar-nav li{
+	font-size: 20px;
+	padding-left:30px;
+	font-family: 'Allan'; 
+}
+#logo{
+	width:50px;
+	height:50px;
+}
+#background{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("images/bg1.jpg");
+	background-position: center;
+	background-size: 100% 100%;
+	height: 70vh;
+	width:100%;
+
+}
+#motive{
+	color:white;
+	font-family: 'Allan';
+	padding-top:10%;
+	background: transparent;
+}
+#event{
+	margin-top: 40px;
+}
+.img-thumbnail{
+	width:500px;
+	height: 300px;
+	padding:10px;
+}
+
+.content{
+	font-family: 'Allan'
+}
+.thumbnail{
+	padding-bottom:20px;
+    margin-bottom: 20px;
+}
+button{
+	border-radius: 10px;
+	background-color:#61f2a2;
+	padding:10px;
+	
+	border:1px solid white;
+}
+.revimg{
+	width:70px;
+  height:80px;
+  border-radius: 50%;
+  padding-bottom: 5px;
+
+}
+
+.thumbnail caption{
+	padding:15px;
+}
+.about{
+	padding:5% 20%;
+	background-image: url("images/rulesbg.jpg");
+    background-position: center;
+    color:#47152f;
+    font-size: 20px;
+}
+
+
+footer{
+  background-image:url(images/contactbg1.jpg);
+  background-position: center;
+  background-size: cover ;
+  padding:20px;
+  box-sizing: border-box;
+  color:white;
+  
+}
+footer > ul {
+    display: flex;
+    justify-content: space-around;
+}
+footer > ul > li {
+    padding: 0 10px;
+}
+li{
+  list-style:none;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+footer > span {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 14px;
+    color: #444;
+}
+center i{
+  padding-right:20px;
+}
+li i{
+  padding-right:20px;
+}
+footer center p{
+  font-size:20px;
+}

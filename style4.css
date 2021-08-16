@@ -1,0 +1,95 @@
+body{
+    padding:0;
+    margin:0;
+     background-image: url(images/rulesbg.jpg);
+}
+
+
+
+
+p{
+    font-size: 20px;
+    
+}
+h1{
+    margin-top:60px;
+    text-align: center;
+}
+form{
+   
+    font-size: 20px;
+    color:black;
+    background-image: url("images/rulesbg.jpg");
+    padding:5%;
+    border-radius: 0.25rem;
+    margin:2% 25% 10% 25%;
+
+}
+
+.form-group input{
+    width:100%;
+    border-radius: 5px;
+    padding: 2%;
+    font-size: 18px;
+}
+
+textarea{
+    border-radius: 4px;
+    width:100%;
+}
+button{
+    padding:1%;
+    width:100%;
+    background-color: limegreen;
+    font-size: 18px;
+    border-radius: 4px;
+}
+#dropdown{
+    width:100%;
+    padding:2%;
+   
+    font-size: 18px;
+}
+#survey-form{
+    margin-top: 0px;
+}
+footer{
+  background-image:url(images/contactbg1.jpg);
+  background-position: center;
+  background-size: cover ;
+  padding:20px;
+  box-sizing: border-box;
+  color:white;
+ 
+  
+}
+footer > ul {
+    display: flex;
+    justify-content: space-around;
+}
+footer > ul > li {
+    padding: 0 10px;
+}
+li{
+  list-style:none;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+footer > span {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 14px;
+    color: #444;
+}
+center i{
+  padding-right:20px;
+}
+li i{
+  padding-right:20px;
+}
+footer center p{
+  font-size:20px;
+}
